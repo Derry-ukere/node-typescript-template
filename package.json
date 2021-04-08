@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/distinctai/nodejs-ts-template.git"
+    "url": "git+https://github.com/distinctai/nodejs-template-ts.git"
   },
   "keywords": [
     "NodeJs",
@@ -33,9 +33,9 @@
   },
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/distinctai/nodejs-ts-template/issues"
+    "url": "https://github.com/distinctai/nodejs-template-ts/issues"
   },
-  "homepage": "https://github.com/distinctai/nodejs-ts-template#readme",
+  "homepage": "https://github.com/distinctai/nodejs-template-ts#readme",
   "dependencies": {
     "@distinct-ai/node-error-reporting": "1.0.3-SNAPSHOT-1587912837",
     "@types/cors": "2.8.6",
