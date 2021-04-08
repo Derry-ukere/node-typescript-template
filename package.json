@@ -1,7 +1,7 @@
 {
   "name": "nodejs-ts-template",
   "version": "1.0.0",
-  "description": "Boardman default NodeJs Typescript template",
+  "description": "Distinct default NodeJs Typescript template",
   "main": "./src/bin/www/index.ts",
   "private": true,
   "scripts": {
@@ -21,23 +21,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boardman-app/nodejs-ts-template.git"
+    "url": "git+https://github.com/distinctai/nodejs-ts-template.git"
   },
   "keywords": [
     "NodeJs",
     "Template"
   ],
   "author": {
-    "name": "Seyi Ajonibode",
-    "email": "seyi@boardmanapp.com"
+    "name": "Distinct Developers",
+    "email": "developers@distinct.ai"
   },
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/boardman-app/nodejs-ts-template/issues"
+    "url": "https://github.com/distinctai/nodejs-ts-template/issues"
   },
-  "homepage": "https://github.com/boardman-app/nodejs-ts-template#readme",
+  "homepage": "https://github.com/distinctai/nodejs-ts-template#readme",
   "dependencies": {
-    "@boardman-app/node-error-reporting": "1.0.3-SNAPSHOT-1587912837",
+    "@distinct-ai/node-error-reporting": "1.0.3-SNAPSHOT-1587912837",
     "@types/cors": "2.8.6",
     "@types/express-serve-static-core": "4.17.1",
     "body-parser": "1.19.0",

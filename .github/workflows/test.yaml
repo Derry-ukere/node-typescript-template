@@ -19,14 +19,14 @@ jobs:
         with:
           secret-store: ${{ secrets.SECRET_STORE_URL }}
           request-tokens: GITHUB_TOKEN
-          repository: boardman-app/${{ github.event.repository.name }}
+          repository: distinctai/${{ github.event.repository.name }}
           token: ${{secrets.GITHUB_TOKEN}}
           ignore-failure: false
 
       - name: Run test
         env:
             GITHUB_TOKEN: ${{ steps.read-tokens.outputs.GITHUB_TOKEN }}
-            GITHUB_OWNER: boardman-app
+            GITHUB_OWNER: distinctai
         run: |
           echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> $HOME/.npmrc && \
           npm config set @${GITHUB_OWNER}:registry https://npm.pkg.github.com/${GITHUB_OWNER}

@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { ErrorReporter } from '@boardman-app/node-error-reporting';
+import { ErrorReporter } from '@distinct-ai/node-error-reporting';
 
 dotenv.config();
 
