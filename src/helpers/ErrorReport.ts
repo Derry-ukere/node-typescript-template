@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { ErrorReporter } from '@distinct-ai/node-error-reporting';
+import { ErrorReporter } from '@distinctai/node-error-reporting';
 
 dotenv.config();
 
