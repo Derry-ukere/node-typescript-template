@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/distinctai/nodejs-template-ts#readme",
   "dependencies": {
-    "@distinct-ai/node-error-reporting": "1.0.3-SNAPSHOT-1587912837",
+    "@distinctai/node-error-reporting": "1.0.3-SNAPSHOT-1618442538",
     "@types/cors": "2.8.6",
     "@types/express-serve-static-core": "4.17.1",
     "body-parser": "1.19.0",
