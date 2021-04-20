@@ -1,5 +1,5 @@
-import log4js from 'log4js';
-import { Log4js } from '../../../helpers/Logger/Log4js';
+import log4js from '@distinctai/application-logger/node_modules/log4js';
+import { Log4js } from '@distinctai/application-logger/src/Log4js';
 
 describe('Logger -> Log4js test suite', () => {
   let logger: Log4js;
@@ -16,6 +16,7 @@ describe('Logger -> Log4js test suite', () => {
 
     logger = new Log4js({
       id: 'nodejs-template-ts',
+      type: { type: 'console' },
     });
   });
 
