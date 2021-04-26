@@ -4,11 +4,14 @@ import { createConnection } from 'typeorm';
 
 import app from '../../app';
 import dbConnection from '../../typeorm';
-import { Logger } from '../../helpers/Logger';
+import { autoCreateDb } from '../../mysql';
+import { Logger } from '../../helpers';
 
 app.use(errorHandler());
 
 (async () => {
+  await autoCreateDb();
+
   await createConnection(dbConnection)
     .then(() => {
       // Initialize server
