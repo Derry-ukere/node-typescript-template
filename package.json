@@ -1,9 +1,9 @@
 {
   "name": "nodejs-ts-template",
   "version": "1.0.0",
-  "description": "Distinct default NodeJs Typescript template",
+  "description": "default NodeJs Typescript template",
   "main": "./src/bin/www/index.ts",
-  "private": true,
+  "private": false,
   "scripts": {
     "prod:start": "NODE_ENV=production node --optimize_for_size --max_old_space_size=920 --gc_interval=100 ./dist/bin/www/index.js",
     "dev:start": "NODE_ENV=development npm-run-all --parallel \"dev:watch\" \"prettier:watch\" \"test:watch\"",
@@ -21,24 +21,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/distinctai/nodejs-template-ts.git"
+    "url": "https://github.com/Derry-ukere/node-typescript-template.git"
   },
   "keywords": [
     "NodeJs",
     "Template"
   ],
   "author": {
-    "name": "Distinct Developers",
-    "email": "developers@distinct.ai"
+    "name": "Derry Ukere ",
+    "email": "ukderry@gmail.com"
   },
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/distinctai/nodejs-template-ts/issues"
+    "url": "https://github.com/Derry-ukere/node-typescript-template"
   },
-  "homepage": "https://github.com/distinctai/nodejs-template-ts#readme",
+  "homepage": "https://github.com/Derry-ukere/node-typescript-template",
   "dependencies": {
-    "@distinctai/application-logger": "1.0.0-SNAPSHOT-1618915983",
-    "@distinctai/node-error-reporting": "1.0.3-SNAPSHOT-1618442538",
     "@types/cors": "2.8.10",
     "@types/express-serve-static-core": "4.17.1",
     "body-parser": "1.19.0",
